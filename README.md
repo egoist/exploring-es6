@@ -8,3 +8,7 @@
 
 
 此外由于 JavaScript 的世界变化比较快，本书的内容也会与时俱进，长期更新，当然，不会有 ES7 及更新版本的内容。
+
+## License
+
+本书采用 [知识共享署名-非商业性使用-禁止演绎 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/) 国际许可协议进行许可。
