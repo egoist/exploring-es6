@@ -3,6 +3,6 @@ task('publish', () => {
   exec('cd _book')
   exec('git add -A')
   exec('git commit -m "update book"')
-  exec('git push origin master:gh-pages -f')
+  exec('git push origin gh-pages -f')
 })
     
