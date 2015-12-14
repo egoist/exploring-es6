@@ -1,0 +1,8 @@
+task('publish', () => {
+  exec('gitbook build')
+  exec('cd _book')
+  exec('git add -A')
+  exec('git commit -m "update book"')
+  exec('git push origin master:gh-pages -f')
+})
+    
