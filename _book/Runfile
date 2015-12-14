@@ -1,6 +1,8 @@
 task('publish', () => {
+  exec('rm -rf _book')
   exec('gitbook build')
   exec('cd _book')
+  exec('git init')
   exec('git add -A')
   exec('git commit -m "update book"')
   exec('git push git@github.com:egoist/the-little-book-on-es6.git master:gh-pages -f')
