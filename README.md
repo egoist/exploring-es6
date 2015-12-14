@@ -1,3 +1,3 @@
-# My Awesome Book
+# ES6 小书
 
-This file serves as your book's preface, a great place to describe your book's content and ideas.
+这本书
